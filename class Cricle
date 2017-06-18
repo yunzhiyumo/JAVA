@@ -1,0 +1,19 @@
+public class Helloword{
+	public static void main(String args[]){
+		Cricle cricle;
+		cricle=new Cricle();
+		cricle.radus=1.45;
+		double area;
+		area=cricle.getArea();
+		System.out.println(area);
+	}
+}
+
+class Cricle{
+	double radus;
+	double area;
+	double getArea(){
+		area=3.14*radus*radus;
+		return area;
+	}
+}
